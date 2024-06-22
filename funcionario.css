@@ -36,15 +36,31 @@ header{
     color: #0365bc;
 }
 
+#LOGO{
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+}
+
 .button{
-    padding: 15px 28px;
+    padding: 10px;
     color: white;
     transition: 0.3s ease;
     cursor: pointer;
     text-align: center;
     align-items: center;
-    
 }
+
+h2{
+    text-align: center;
+    align-items: center;
+}
+
+p{
+    align-items: center;
+    text-align: center;
+}
+
 button{
     padding: 10px 20px;
     font-size: 16px;
@@ -59,4 +75,48 @@ button{
 }
 .button button:hover{
     background-color: #030a8c;
+}
+
+.buttons{
+    justify-content: center;
+    display: flex;
+    padding-top: 5%;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 1000px;
+    height: 600px; 
+    border: 2px solid #000; 
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 20px 0;
+}
+
+
+.box {
+    width: 500px; 
+    height: 120px; 
+    border: 2px solid black; 
+    background-color: #f0f0f0; 
+}
+
+
+.project p {
+    margin: 0 0 10px 0; 
+    text-align: center; 
+    font-weight: bold; 
 }
